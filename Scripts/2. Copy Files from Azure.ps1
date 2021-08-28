@@ -1,0 +1,2 @@
+az login --service-principal --username "a448d6fc-f8b7-4847-9bf7-93f56bc7451f" --password 'C:\\Users\\svir\\tmpnow6fl5e.pem' --tenant "80e51828-6b27-4102-9478-a14375194b20"
+az storage azcopy blob download -c vendorlist --account-name svflorida -s * -d "c:\\temp\\localsvflorida" --recursive

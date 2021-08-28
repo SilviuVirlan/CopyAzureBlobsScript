@@ -1,0 +1,3 @@
+#run commands manually one by one
+az login
+az ad sp create-for-rbac -n "SVservicePrincipal" --role Owner --create-cert
